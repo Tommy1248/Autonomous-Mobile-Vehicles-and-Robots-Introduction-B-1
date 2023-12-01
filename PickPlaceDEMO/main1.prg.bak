@@ -1,0 +1,116 @@
+Integer Tokens
+Integer Blocks
+Double TokenHeight
+Double BlockHeight
+Function main1
+
+Motor On
+Power High
+Speed 30
+Accel 30, 30
+SpeedS 500
+AccelS 5000
+Tool 1
+
+Tokens = 2
+Blocks = 2
+TokenHeight = 6.0
+BlockHeight = 6.0
+Integer TokenID
+Integer BlockID
+
+Go Retract_Safe
+
+
+For TokenID = Tokens To 0 Step -1
+	Pick_Infeed_Token1()
+	Alignment_Token1()
+	Place_Tray_Token1()
+Next TokenID
+
+For BlockID = Blocks To 0 Step -1
+	Pick_Infeed_Block1()
+	Alignment_Block1()
+	Place_Tray_Block1()
+Next BlockID
+
+Go Retract_Safe
+
+Fend
+
+Function Pick_Infeed_Token1
+	'Pick Token from Infeed
+	Print "Picking Token from Infeed. Token ID = ", Tokens
+	Go Infeed_Token1 +Z(50 + (Tokens * TokenHeight)) CP
+	Wait .5
+	Move Infeed_Token1 +Z(Tokens * TokenHeight + 20)
+	On 8
+	Wait .5
+	Move Infeed_Token1 +X(-1) +Z(50 + (Tokens * TokenHeight)) CP
+	'Tokens = Tokens - 1
+Fend
+
+Function Pick_Infeed_Block1
+	'Pick Block from Infeed
+	Print "Picking Block from Infeed. Block ID = ", Blocks
+	Go Infeed_Block1 +Z(50 + (Blocks * BlockHeight) - 70) CP
+	Move Infeed_Block1 +Z(Blocks * BlockHeight)
+	On 8
+	Wait .5
+	Move Infeed_Block1 +X(-1) +Y(1) +Z(50 + (Blocks * BlockHeight)) CP
+	'Blocks = Blocks - 1
+Fend
+
+Function Alignment_Token1
+	'Alignment Token
+	Print "Aligning Token. Token ID = ", Tokens
+	Go Align_Token1 +Z(20) CP
+	Move Align_Token1
+	Off 8
+	Move Align_Token1 +X(5)
+	Move Align_Token1 +X(5) +Z(5) CP
+	Go Align_Token1 +Z(5) CP
+	Move Align_Token1
+	On 8
+	Wait .5
+	Move Align_Token1 +Z(20) CP
+Fend
+
+Function Alignment_Block1
+	'Alignment Block
+	Print "Aligning Block. Block ID = ", Blocks
+	Go Align_Block1 +Z(20) CP
+	Move Align_Block1
+	Off 8
+	Move Align_Block1 +Y(-5)
+	Move Align_Block1 +X(5) +Y(-6) CP
+	Move Align_Block1 +X(5) +Y(-6) +Z(5) CP
+	Go Align_Block1 +Z(5) CP
+	Move Align_Block1
+	On 8
+	Wait .5
+	Move Align_Block1 +Z(20) CP
+Fend
+
+Function Place_Tray_Token1
+	'Tray Token
+	Print "Placing Token in Tray. Tray Position ID = ", Tokens
+	Go Tray_Token1 +X(-.05 * Tokens) +Y(-30. * Tokens) +Z(20) CP
+	Move Tray_Token1 +X(-.05 * Tokens) +Y(-30. * Tokens)
+	Off 8
+	Wait .5
+	Move Tray_Token1 +X(-.05 * Tokens) +Y(-30. * Tokens) +Z(50) CP
+	Tokens = Tokens - 1
+Fend
+
+Function Place_Tray_Block1
+	'Tray Block
+	Print "Placing Block in Tray. Block Position ID = ", Blocks
+	Go Tray_Block1 +X(-.05 * Blocks) +Y(-30. * Blocks) +Z(20) CP
+	Move Tray_Block1 +X(-.05 * Blocks) +Y(-30. * Blocks)
+	Off 8
+	Wait .5
+	Move Tray_Block1 +X(-.05 * Blocks) +Y(-30. * Blocks) +Z(50) CP
+	Blocks = Blocks - 1
+Fend
+

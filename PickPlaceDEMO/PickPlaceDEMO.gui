@@ -1,0 +1,41 @@
+ENVT0100,LM:2023/12/01 08:30:47:953,DS:0000000803,CS:22272,MA:00-FF-37-EA-34-CD,EI:           
+sHelpFile=""
+nStartupForm=0
+nFormCount=1
+Form1 {
+	sBackColor="Control"
+	nEventTaskType=0
+	nFormBorderStyle=3
+	nHeight=404
+	sName="test"
+	nStartPosition=1
+	sText="test"
+	nWidth=564
+	nWindowState=0
+	sClosed="(None)"
+	sLoad="(None)"
+	sResize="(None)"
+	nControlCount=1
+	Control1 {
+		nControlType=1
+		sControlTypeName="Button"
+		nChildIndex=0
+		sBackColor="Control"
+		nBackColorMode=0
+		nEventTaskType=0
+		sFontName="Microsoft Sans Serif"
+		rFontSize=8.25
+		bFontBold=False
+		bFontItalic=False
+		sForeColor="ControlText"
+		nHeight=75
+		nImageAlign=32
+		nLeft=59
+		sName="Button1"
+		sText="Button1"
+		nTextAlign=32
+		nTop=45
+		nWidth=122
+		sClick="test_Button1_Click"
+	}
+}

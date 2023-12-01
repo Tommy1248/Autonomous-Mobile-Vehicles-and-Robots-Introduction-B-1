@@ -1,0 +1,116 @@
+Integer test_Tokens
+Integer test_Blocks
+Double test_TokenHeight
+Double test_BlockHeight
+Function test_main
+
+Motor On
+Power High
+Speed 30
+Accel 30, 30
+SpeedS 500
+AccelS 5000
+Tool 1
+
+test_Tokens = 2
+test_Blocks = 2
+test_TokenHeight = 6.0
+test_BlockHeight = 6.0
+Integer test_TokenID
+Integer test_BlockID
+
+Go Retract_Safe
+
+
+For test_TokenID = test_Tokens To 0 Step -1
+	test_Pick_Infeed_Token1()
+	test_Alignment_Token1()
+	test_Place_Tray_Token1()
+Next test_TokenID
+
+For test_BlockID = test_Blocks To 0 Step -1
+	test_Pick_Infeed_Block()
+	test_Alignment_Block()
+	test_Place_Tray_Block()
+Next test_BlockID
+
+Go Retract_Safe
+
+Fend
+
+Function test_Pick_Infeed_Token
+	'Pick Token from Infeed
+	Print "Picking Token from Infeed. Token ID = ", test_Tokens
+	Go Infeed_Token1 +Z(50 + (test_Tokens * test_TokenHeight)) CP
+	Wait .5
+	Move Infeed_Token1 +Z(test_Tokens * test_TokenHeight + 20)
+	On 12
+	Wait .5
+	Move Infeed_Token1 +X(-1) +Z(50 + (test_Tokens * test_TokenHeight)) CP
+	'Tokens = Tokens - 1
+Fend
+
+Function test_Pick_Infeed_Block
+	'Pick Block from Infeed
+	Print "Picking Block from Infeed. Block ID = ", test_Blocks
+	Go Infeed_Block1 +Z(50 + (test_Blocks * test_BlockHeight)) CP
+	Move Infeed_Block1 +Z(test_Blocks * test_BlockHeight)
+	On 12
+	Wait .5
+	Move Infeed_Block1 +X(-1) +Y(1) +Z(50 + (test_Blocks * test_BlockHeight)) CP
+	'Blocks = Blocks - 1
+Fend
+
+Function test_Alignment_Token
+	'Alignment Token
+	Print "Aligning Token. Token ID = ", test_Tokens
+	Go Align_Token1 +Z(20) CP
+	Move Align_Token1
+	Off 12
+	Move Align_Token1 +X(5)
+	Move Align_Token1 +X(5) +Z(5) CP
+	Go Align_Token1 +Z(5) CP
+	Move Align_Token1
+	On 12
+	Wait .5
+	Move Align_Token1 +Z(20) CP
+Fend
+
+Function test_Alignment_Block
+	'Alignment Block
+	Print "Aligning Block. Block ID = ", test_Blocks
+	Go Align_Block1 +Z(20) CP
+	Move Align_Block1
+	Off 12
+	Move Align_Block1 +Y(-5)
+	Move Align_Block1 +X(5) +Y(-6) CP
+	Move Align_Block1 +X(5) +Y(-6) +Z(5) CP
+	Go Align_Block1 +Z(5) CP
+	Move Align_Block1
+	On 12
+	Wait .5
+	Move Align_Block1 +Z(20) CP
+Fend
+
+Function test_Place_Tray_Token
+	'Tray Token
+	Print "Placing Token in Tray. Tray Position ID = ", test_Tokens
+	Go Tray_Token1 +X(-.05 * test_Tokens) +Y(-30. * test_Tokens) +Z(20) CP
+	Move Tray_Token1 +X(-.05 * test_Tokens) +Y(-30. * test_Tokens)
+	Off 12
+	Wait .5
+	Move Tray_Token1 +X(-.05 * test_Tokens) +Y(-30. * test_Tokens) +Z(50) CP
+	Tokens = test_Tokens - 1
+Fend
+
+Function test_Place_Tray_Block
+	'Tray Block
+	Print "Placing Block in Tray. Block Position ID = ", test_Blocks
+	Go Tray_Block1 +X(-.05 * test_Blocks) +Y(-30. * test_Blocks) +Z(20) CP
+	Move Tray_Block1 +X(-.05 * test_Blocks) +Y(-30. * test_Blocks)
+	Off 12
+	Wait .5
+	Move Tray_Block1 +X(-.05 * test_Blocks) +Y(-30. * test_Blocks) +Z(50) CP
+	Blocks = test_Blocks - 1
+Fend
+

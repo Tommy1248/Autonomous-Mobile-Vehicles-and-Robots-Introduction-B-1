@@ -1,0 +1,18 @@
+ENVT0100,LM:2023/11/21 07:13:27:886,DS:0000000363,CS:26973,MA:00-FF-71-6D-5C-F7,EI:           
+sHelpFile=""
+nStartupForm=0
+nFormCount=1
+Form1 {
+	sBackColor="Control"
+	nEventTaskType=0
+	nFormBorderStyle=3
+	nHeight=404
+	sName="test"
+	nStartPosition=1
+	sText="test"
+	nWidth=564
+	nWindowState=0
+	sClosed="(None)"
+	sLoad="(None)"
+	sResize="(None)"
+}
