@@ -1,12 +1,12 @@
-ENVT0100,LM:2023/12/05 06:12:43:289,DS:0000001137,CS:18302,MA:00-FF-37-EA-34-CD,EI:           
+ENVT0100,LM:2023/12/05 06:32:55:441,DS:0000001027,CS:06777,MA:00-FF-37-EA-34-CD,EI:           
 General {
-	sDate="2023/12/05 06:12:43:273"
+	sDate="2023/12/05 06:32:55:433"
 	sVersion="10. 4. 4. 0"
 	sSerial="0"
 	nFileVersion=100
 	nMnpCount=1
 	nCurrentMnpNo=1
-	nPrjFileCount=20
+	nPrjFileCount=17
 	nPCInfoFileCount=0
 }
 Files {
@@ -15,24 +15,21 @@ Files {
 	sF002="/Mounted Volume/MCSys01.MCD"
 }
 PrjFiles {
-	sF000="/Temp/Project/GUI.obj"
-	sF001="/Temp/Project/GUI.prg"
-	sF002="/Temp/Project/IOLabels.dat"
-	sF003="/Temp/Project/Main.obj"
-	sF004="/Temp/Project/Main.prg"
-	sF005="/Temp/Project/PickPlaceDEMO.gui"
-	sF006="/Temp/Project/PickPlaceDEMO.obj"
-	sF007="/Temp/Project/PickPlaceDEMO.sprj"
-	sF008="/Temp/Project/Points.pts"
-	sF009="/Temp/Project/Task_I.obj"
-	sF010="/Temp/Project/Task_I.prg"
-	sF011="/Temp/Project/Task_II.obj"
-	sF012="/Temp/Project/Task_II.prg"
-	sF013="/Temp/Project/Task_III.obj"
-	sF014="/Temp/Project/Task_III.prg"
-	sF015="/Temp/Project/TCPIPdemo.obj"
-	sF016="/Temp/Project/TCPIPdemo.prg"
-	sF017="/Temp/Project/test1.obj"
-	sF018="/Temp/Project/test1.prg"
-	sF019="/Temp/Project/UserErrors.dat"
+	sF000="/Temp/Project/Final_Project.obj"
+	sF001="/Temp/Project/Final_Project.sprj"
+	sF002="/Temp/Project/GUI.obj"
+	sF003="/Temp/Project/GUI.prg"
+	sF004="/Temp/Project/IOLabels.dat"
+	sF005="/Temp/Project/Main.obj"
+	sF006="/Temp/Project/Main.prg"
+	sF007="/Temp/Project/Points.pts"
+	sF008="/Temp/Project/Task_I.obj"
+	sF009="/Temp/Project/Task_I.prg"
+	sF010="/Temp/Project/Task_II.obj"
+	sF011="/Temp/Project/Task_II.prg"
+	sF012="/Temp/Project/Task_III.obj"
+	sF013="/Temp/Project/Task_III.prg"
+	sF014="/Temp/Project/TCPIPdemo.obj"
+	sF015="/Temp/Project/TCPIPdemo.prg"
+	sF016="/Temp/Project/UserErrors.dat"
 }
