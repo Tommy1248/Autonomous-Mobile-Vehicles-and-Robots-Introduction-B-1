@@ -1,0 +1,59 @@
+ENVT0100,LM:2023/12/03 14:19:38:406,DS:0000000917,CS:01095,MA:00-FF-37-EA-34-CD,EI:           
+sRCNGVersion="5.4.7"
+InputBitLabels {
+	nNumberOfLabels=5
+	Label1 {
+		nBit=8
+		sLabel="Cylinder_Y_OUT"
+		sDescription=""
+	}
+	Label2 {
+		nBit=9
+		sLabel="Cylinder_Y_IN"
+		sDescription=""
+	}
+	Label3 {
+		nBit=10
+		sLabel="Cylinder_X_IN"
+		sDescription=""
+	}
+	Label4 {
+		nBit=11
+		sLabel="Cylinder_X_OUT"
+		sDescription=""
+	}
+	Label5 {
+		nBit=12
+		sLabel="Gripper_Open"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=12
+		sLabel="nozzle"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=0
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

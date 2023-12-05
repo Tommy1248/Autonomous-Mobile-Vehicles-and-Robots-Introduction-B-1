@@ -1,0 +1,17 @@
+Function Test
+	Motor On
+
+	P1 = XY(200, 450, 300, 0, 180, 0)
+	P2 = XY(0, 450, 300, 0, 180, 0)
+	P3 = XY(-200, 450, 300, 0, 180, 0)
+	Integer i
+	i = 1
+	Do While i <= 4
+		Go P(i) +Z(50)
+		Go P(i)
+		Go P(i) +Z(50)
+		i = i + 1
+	Loop
+
+Fend
+

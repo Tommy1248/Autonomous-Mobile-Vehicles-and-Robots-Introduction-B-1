@@ -1,0 +1,166 @@
+ENVT0100,LM:2023/12/05 06:31:29:578,DS:0000003267,CS:62806,MA:00-FF-37-EA-34-CD,EI:           
+SystemProperties {
+	sRC50Version="5.4.7"
+	sGUID="e4e280af-4848-4018-9a4f-49f5395f896b"
+	bSimple=False
+	sCreated="2019/8/13 上午 11:47:18"
+	sLastModified="2023/12/3 下午 10:44:00"
+	bBuildComplete=False
+	bRebuildRequired=True
+	bClearControllerProject=False
+	bClearGlobalPreserves=False
+	sComputerName="LAPTOP-D52G11O2"
+}
+UserProperties {
+	sVersion=""
+	sDescription=""
+	sNotes=""
+	sParserEmulationVersion=""
+}
+IOLabelFile {
+	sName="IOLabels.dat"
+	nChecksum=0
+}
+UserErrorsFile {
+	sName="UserErrors.dat"
+	nChecksum=0
+}
+nProgramFileCount=6
+ProgramFile1 {
+	sName="Main.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/11/20 下午 01:45:50"
+}
+ProgramFile2 {
+	sName="TCPIPdemo.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/11/20 下午 01:45:50"
+}
+ProgramFile3 {
+	sName="Task_I.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/12/3 上午 10:37:53"
+}
+ProgramFile4 {
+	sName="Task_II.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/12/1 上午 07:20:52"
+}
+ProgramFile5 {
+	sName="Task_III.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/12/1 上午 08:16:00"
+}
+ProgramFile6 {
+	sName="GUI.prg"
+	bCompiled=False
+	bStoreInController=True
+	sTimeSavedInController="2023/12/3 下午 02:41:00"
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="Points.pts"
+	sTimeSavedInController="2023/11/23 上午 10:12:44"
+}
+OperatorSettings {
+	OperatorWindow {
+		sTitle="Operator Window"
+		nWinState=0
+		sFontName="Courier New"
+		rFontSize=10
+		bFontBold=False
+		bRobotMgrButton=True
+		bPauseContButtons=True
+		bIOMonitorButton=True
+		bSystemHistoryButton=True
+		bSimulatorButton=True
+		Program0 {
+			sName="Program"
+			bEnabled=True
+		}
+		Program1 {
+			sName="Program 1"
+			bEnabled=True
+		}
+		Program2 {
+			sName="Program 2"
+			bEnabled=True
+		}
+		Program3 {
+			sName="Program 3"
+			bEnabled=True
+		}
+		Program4 {
+			sName="Program 4"
+			bEnabled=True
+		}
+		Program5 {
+			sName="Program 5"
+			bEnabled=True
+		}
+		Program6 {
+			sName="Program 6"
+			bEnabled=True
+		}
+		Program7 {
+			sName="Program 7"
+			bEnabled=True
+		}
+		bDisplayVision=False
+	}
+	RobotManager {
+		bAllowTeach=True
+		bAllowMotionCmds=True
+		bAllowDeletePoints=True
+		bAllowEditPoints=True
+		bAllowSFree=True
+		bAllowHome=True
+		bPromptNewPointInfo=True
+		bTeachDefinedOnly=True
+		bControlPanelTab=True
+		bJogTab=True
+		bPointsTab=True
+		bArchTab=False
+		bLocalsTab=False
+		bToolsTab=False
+		bArmsTab=False
+		bECPTab=False
+		bBoxesTab=False
+		bPlanesTab=False
+		bWeightTab=False
+		bInertiaTab=False
+		bXYZLimitsTab=False
+		bRangeTab=False
+		bHomeConfigTab=False
+	}
+	IOMonitor {
+		bStandardViewTab=True
+		bCustomView1Tab=True
+		bCustomView2Tab=False
+		bCustomView3Tab=False
+		bAllowChangeOutputs=False
+	}
+}
+IOCustomView1 {
+	sName=""
+	bVisible=True
+	nNumberOfRows=0
+}
+IOCustomView2 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+IOCustomView3 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+nVisFileCount=0
+nGuiBuilderFileCount=0
