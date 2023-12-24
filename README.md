@@ -38,6 +38,15 @@ https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-
 </details>
 
 ## Task 3
+
+
+https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/141569321/f4a38ee4-328a-44f9-8462-a387a614ed56
+
+
+https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/141569321/b9655d3d-4cb6-4e30-a914-e9cda3e440ee
+
+
+
 ### Task 3 simulation
 
 
