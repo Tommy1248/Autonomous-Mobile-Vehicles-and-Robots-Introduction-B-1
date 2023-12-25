@@ -1,4 +1,4 @@
-ENVT0100,LM:2023/12/03 14:19:38:406,DS:0000000917,CS:01095,MA:00-FF-37-EA-34-CD,EI:           
+ENVT0100,LM:2023/12/03 14:22:45:998,DS:0000001056,CS:20602,MA:00-FF-37-EA-34-CD,EI:           
 sRCNGVersion="5.4.7"
 InputBitLabels {
 	nNumberOfLabels=5
@@ -35,10 +35,20 @@ InputWordLabels {
 	nNumberOfLabels=0
 }
 OutputBitLabels {
-	nNumberOfLabels=1
+	nNumberOfLabels=3
 	Label1 {
+		nBit=10
+		sLabel="cylinder_in"
+		sDescription=""
+	}
+	Label2 {
 		nBit=12
 		sLabel="nozzle"
+		sDescription=""
+	}
+	Label3 {
+		nBit=13
+		sLabel="cylinder_out"
 		sDescription=""
 	}
 }

@@ -1,11 +1,11 @@
-ENVT0100,LM:2023/12/05 06:32:51:155,DS:0000001942,CS:08721,MA:00-FF-37-EA-34-CD,EI:           
+ENVT0100,LM:2023/12/25 19:29:23:467,DS:0000002220,CS:21807,MA:00-FF-37-EA-34-CD,EI:           
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=False
 	nWinState=0
 	Window {
-		nLeft=1
-		nTop=-5
+		nLeft=510
+		nTop=-10
 		nWidth=691
 		nHeight=631
 	}
@@ -26,10 +26,10 @@ ProgramFile3 {
 	bOpened=False
 	nWinState=0
 	Window {
-		nLeft=1
-		nTop=3
-		nWidth=780
-		nHeight=361
+		nLeft=2
+		nTop=2
+		nWidth=781
+		nHeight=591
 	}
 }
 ProgramFile4 {
@@ -44,14 +44,14 @@ ProgramFile4 {
 	}
 }
 ProgramFile5 {
-	sName="Task_III.prg"
+	sName="Task_III_I.prg"
 	bOpened=False
 	nWinState=0
 	Window {
-		nLeft=347
-		nTop=32
+		nLeft=353
+		nTop=25
 		nWidth=705
-		nHeight=445
+		nHeight=556
 	}
 }
 ProgramFile6 {
@@ -59,10 +59,32 @@ ProgramFile6 {
 	bOpened=False
 	nWinState=0
 	Window {
-		nLeft=447
-		nTop=84
+		nLeft=736
+		nTop=35
 		nWidth=531
 		nHeight=432
+	}
+}
+ProgramFile7 {
+	sName="IO.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=987
+		nHeight=432
+	}
+}
+ProgramFile8 {
+	sName="Task_III_II.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=1001
+		nHeight=445
 	}
 }
 nIncludeFileCount=0
@@ -82,9 +104,9 @@ sActiveWindow="main.prg"
 CmdWindow {
 	bOpened=False
 	Window {
-		nLeft=572
-		nTop=369
-		nWidth=778
+		nLeft=327
+		nTop=407
+		nWidth=1010
 		nHeight=208
 	}
 	nWinState=0
@@ -92,9 +114,9 @@ CmdWindow {
 RunWindow {
 	bOpened=False
 	Window {
-		nLeft=701
-		nTop=6
-		nWidth=647
+		nLeft=1
+		nTop=480
+		nWidth=568
 		nHeight=300
 	}
 }
@@ -111,8 +133,8 @@ IOLabelEditor {
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=336
-		nTop=162
+		nLeft=1055
+		nTop=83
 		nWidth=478
 		nHeight=488
 	}
@@ -138,8 +160,8 @@ Macros {
 RobotMgr {
 	bOpened=False
 	Window {
-		nLeft=-61
-		nTop=33
+		nLeft=629
+		nTop=-1
 		nWidth=689
 		nHeight=448
 	}

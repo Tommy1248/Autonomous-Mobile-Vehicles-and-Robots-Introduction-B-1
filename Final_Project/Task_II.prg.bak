@@ -50,20 +50,21 @@ Function TaskII_put_Block
     'Put Block
 	Print "Put Block. Block ID = ", TaskII_Blocks
     
-    If TaskII_Blocks = 6 Then
-	    Go XY(21, 40, -6, 0, 0, 0) -Z(20) /2
-        Move XY(21, 40, -6, 0, 0, 0) /2
-	    Move XY(21, 40, -6, 0, 0, 0) +X(6.5) /2
-	    Move XY(21, 40, -6, 0, 0, 0) +X(6.5) +Y(7.5) /2
+    If TaskII_Blocks = 5 Then
+	    Go XY(20, 39, -6, 0, 0, 0) -Z(20) /2
+        Move XY(20, 39, -6, 0, 0, 0) /2
+	    'Move XY(20, 39, -6, 0, 0, 0) +X(6.5) /2
+	    'Move XY(20, 39, -6, 0, 0, 0) +X(6.5) +Y(7.5) /2
 	    Off 12
 	    Wait .25
-	    Move XY(21, 40, -6, 0, 0, 0) +X(6.5) +Y(7.5) -Z(8) /2 CP
+	    'Move XY(20, 39, -6, 0, 0, 0) +X(6.5) +Y(7.5) -Z(8) /2 CP
+	    Move XY(20, 39, -6, 0, 0, 0) -Z(8) /2 CP
 	    
-    ElseIf TaskII_Blocks <> 6 Then
-        Go XY(21, 40, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(5 + (5 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2
+    ElseIf TaskII_Blocks <> 5 Then
+        Go XY(20, 39, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(6 + (5 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2
 	    Off 12
 	    Wait .25
-	    Move XY(25, 40, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(20 + (5 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2 CP
+	    Move XY(20, 39, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(21 + (5 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2 CP
     EndIf
 	TaskII_Blocks = TaskII_Blocks - 1
 	
@@ -83,7 +84,7 @@ Fend
 Function TaskII_put_Token
 	'Put Token
 	Print "Put Token. Token ID = ", TaskII_Tokens
-    Go XY(21, 40, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(8 + (4 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2
+    Go XY(21, 40, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(9 + (4 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2
 	Off 12
 	Wait .25
 	Move XY(21, 40, -6.5, 0, 0, 0) +X(2.5) +Y(1.5) -Z(30 + (4 - TaskII_Blocks) * TaskII_BlockHeight + (5 - TaskII_Tokens) * TaskII_TokenHeight) /2 CP

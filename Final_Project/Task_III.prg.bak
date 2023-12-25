@@ -32,12 +32,12 @@ Function TaskIII
 
     Next TaskIII_TokenID
     
-    'For TaskIII_BlockID = TaskIII_Blocks To 0 Step -1
-    ' 	TaskIII_Pick_Infeed_Block()
-    ' 	TaskIII_Alignment_Block()
-    ' 	TaskIII_Place_Tray_Block()
+    For TaskIII_BlockID = TaskIII_Blocks To 0 Step -1
+     	TaskIII_Pick_Infeed_Block()
+     	TaskIII_Alignment_Block()
+     	TaskIII_Place_Tray_Block()
 
-    'Next TaskIII_BlockID
+    Next TaskIII_BlockID
 
     Go Retract_Safe
     
@@ -64,11 +64,9 @@ Function TaskIII_Alignment_Token
 	Go XY(19, 15, -7, 0, 0, 0) +Y(-1) +X(1.5) -Z(5) /2
     On 13
     Wait .25
-    Off 13
-    On 10
+    off 13
     Go XY(19, 15, -7, 0, 0, 0) +Y(-1) +X(1.5) +Z(1) /2
     Wait .25
-    Off 10
 	On 12
 	Wait .25
 	Move XY(19, 15, -7, 0, 0, 0) +Y(-1) +X(1.5) -Z(20) /2
