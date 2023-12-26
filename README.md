@@ -921,7 +921,7 @@ Fend
     <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/%E7%84%8A%E6%8E%A5%E5%9C%96.jpg" width="1000" height="500">
 </div>
 
-#### I/O完成屠圖
+#### I/O完成圖
 <div align="center">
     <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/IO%E5%AE%8C%E6%88%90%E5%9C%96.jpg" width="1000" height="500">
 </div>
