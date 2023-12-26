@@ -850,7 +850,11 @@ Fend
 
 
 ### GUI
-![GUI](https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/92566662/7b1c882b-acb3-4d2a-bacf-9ecc802ff59d)
+
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/92566662/7b1c882b-acb3-4d2a-bacf-9ecc802ff59d" width="600" height="400">
+</div>
+
 
 
 https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/92566662/6d45e7b8-2d05-42d5-a82d-1839a6908cd9
