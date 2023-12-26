@@ -837,13 +837,17 @@ Fend
 </details>
 
 ### CAD
-
+#### 推料盤
 <div align="center">
     <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/CAD.jpg" width="800" height="600">
 </div>
+
+#### 夾爪
 <div align="center">
     <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/gripper.jpg" width="800" height="600">
 </div>
+
+#### 放料斜面
 <div align="center">
     <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/platform.jpg" width="800" height="600">
 </div>
@@ -906,5 +910,20 @@ Fend
 
 
 ### I/O(皆由本組人員自行完成)
+
+#### I/O按鈕介紹
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/IO%E4%BB%8B%E7%B4%B9.jpg" width="1000" height="500">
+</div>
+
+#### I/O焊接圖
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/%E7%84%8A%E6%8E%A5%E5%9C%96.jpg" width="1000" height="500">
+</div>
+
+#### I/O完成屠圖
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/IO%E5%AE%8C%E6%88%90%E5%9C%96.jpg" width="1000" height="500">
+</div>
 
 
