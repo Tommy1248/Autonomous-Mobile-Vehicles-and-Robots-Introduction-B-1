@@ -838,17 +838,16 @@ Fend
 
 ### CAD
 
-<div align = center>
-	<img src ="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/CAD.jpg">	
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/CAD.jpg" width="800" height="600">
+</div>
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/gripper.jpg" width="800" height="600">
+</div>
+<div align="center">
+    <img src="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/platform.jpg" width="800" height="600">
 </div>
 
-<div align = center>
-	<img src ="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/gripper.jpg">
-</div>
-
-<div align = center>
-	<img src ="https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/blob/main/Picture%20file/platform.jpg">
-</div>
 
 ### GUI
 ![GUI](https://github.com/Tommy1248/Autonomous-Mobile-Vehicles-and-Robots-Introduction-B-1/assets/92566662/7b1c882b-acb3-4d2a-bacf-9ecc802ff59d)
